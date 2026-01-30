@@ -11,10 +11,13 @@ export default function Home() {
     <main className="min-h-screen">
       <Navigation />
       <Hero />
+      <div className="flex flex-col gap-5">
       <Expertise />
       <Projects />
       <Process />
       <Contact />
+      </div>
+      
       <Footer />
     </main>
   );

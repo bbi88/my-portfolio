@@ -35,8 +35,8 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="bg-white dark:bg-black px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
-      <div className="mx-auto w-full max-w-4xl">
+    <section id="contact" className="bg-white dark:bg-black flex justify-center px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+      <div className="mx-auto w-full max-w-screen-2xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -134,7 +134,7 @@ export default function Contact() {
               id="description"
               name="description"
               required
-              rows={6}
+              rows={3}
               value={formData.description}
               onChange={handleChange}
               className="w-full rounded-lg border border-slate-300 dark:border-zinc-800 bg-slate-50 dark:bg-zinc-950 px-4 py-3 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-zinc-500 transition-colors focus:border-slate-500 dark:focus:border-zinc-700 focus:outline-none focus:ring-1 focus:ring-slate-500 dark:focus:ring-zinc-700"

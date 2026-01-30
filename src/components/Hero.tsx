@@ -78,7 +78,7 @@ export default function Hero() {
                 className="group flex items-center gap-2 rounded-full bg-slate-900 dark:bg-white px-8 py-4 text-base font-medium text-white dark:text-black transition-colors hover:bg-slate-800 dark:hover:bg-zinc-200"
               >
                 Let's Discuss Your Project
-                <ArrowDown className="h-4 w-4 rotate-[-90deg] transition-transform group-hover:translate-x-1" />
+                <ArrowDown className="h-4 w-4 rotate-90 transition-transform group-hover:translate-x-1" />
               </motion.a>
               
               <motion.a

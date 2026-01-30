@@ -55,7 +55,7 @@ export const expertise: Expertise[] = [
     id: "5",
     title: "Communication & Reliability",
     description: "Strong focus on transparent communication, meeting deadlines, and understanding client needs in international environments.",
-    icon: "MessageSquare",
+    icon: "MessagesSquare",
     tech: ["Transparent Reporting", "Deadline Driven", "Remote Collaboration", "Adaptability"],
   },
 ];

@@ -28,7 +28,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="flex justify-center bg-white dark:bg-black px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
-      <div className="mx-auto w-full max-w-7xl">
+      <div className="mx-auto w-full max-w-screen-2xl flex flex-col gap-2">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -58,12 +58,12 @@ export default function Projects() {
                 key={project.id}
                 variants={itemVariants}
                 whileHover={{ y: -4 }}
-                className={`group relative overflow-hidden rounded-2xl border border-slate-200/80 dark:border-white/10 bg-white/70 dark:bg-zinc-950/70 backdrop-blur-md p-6 sm:p-8 lg:p-10 transition-all hover:border-slate-300/90 dark:hover:border-white/20 hover:bg-white/80 dark:hover:bg-zinc-950/80 shadow-sm dark:shadow-none ${
+                className={`group flex flex-col gap-2 relative overflow-hidden rounded-2xl border border-slate-200/80 dark:border-white/10 bg-white/70 dark:bg-zinc-950/70 backdrop-blur-md p-6 sm:p-8 lg:p-10 transition-all hover:border-slate-300/90 dark:hover:border-white/20 hover:bg-white/80 dark:hover:bg-zinc-950/80 shadow-sm dark:shadow-none ${
                   isLarge ? "sm:col-span-2 lg:col-span-1" : ""
                 }`}
               >
-                <div className="mb-4 flex items-center justify-between">
-                  <span className="rounded-full bg-slate-200/80 dark:bg-zinc-900 px-3 py-1 text-xs font-medium text-slate-600 dark:text-zinc-400">
+                <div className="mb-4 flex items-center">
+                  <span className="translate-x-1 translate-y-1 rounded-full bg-slate-200/80 dark:bg-zinc-900 px-3 py-1 text-xs font-medium text-slate-600 dark:text-zinc-400">
                     {project.category}
                   </span>
                 </div>
@@ -95,7 +95,7 @@ export default function Projects() {
                   <ArrowRight className="h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
                 </motion.button>
 
-                <div className="absolute inset-0 -z-10 bg-gradient-to-br from-slate-200/50 dark:from-zinc-900/50 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+                <div className="absolute inset-0 -z-10 bg-linear-to-br from-slate-200/50 dark:from-zinc-900/50 to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
               </motion.div>
             );
           })}
