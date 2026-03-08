@@ -13,7 +13,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="border-t border-slate-200 dark:border-zinc-900 bg-slate-50 dark:bg-black px-4 py-12 sm:px-6 lg:px-8">
+    <footer className="border-t flex justify-center border-slate-200 dark:border-zinc-900 bg-slate-50 dark:bg-black px-4 py-12 sm:px-6 lg:px-8">
       <div className="mx-auto w-full max-w-7xl">
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
           <motion.p

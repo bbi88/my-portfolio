@@ -14,8 +14,8 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 
 export default function Expertise() {
   return (
-    <section id="expertise" className="flex justify-center bg-bg-white  dark:bg-black px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
-      <div className="mx-auto w-full max-w-screen-2xl">
+    <section id="expertise" className="flex justify-center w-full bg-white dark:bg-black px-4 py-40 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+      <div className="mx-auto max-w-screen-2xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

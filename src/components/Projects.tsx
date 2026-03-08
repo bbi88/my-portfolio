@@ -27,7 +27,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="flex justify-center bg-white dark:bg-black px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+    <section id="projects" className="flex justify-center my-24 bg-white dark:bg-black px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
       <div className="mx-auto w-full max-w-screen-2xl flex flex-col gap-2">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -26,15 +26,15 @@ export default function Hero() {
               <div className="flex h-full w-full items-center justify-center text-slate-500 dark:text-zinc-600">
                 <span className="text-sm">Profile Photo</span>
               </div>
-              {/* Uncomment and use when you have a profile photo:
+              {
               <Image
-                src="/profile-photo.jpg"
+                src="/my-profile.jpeg"
                 alt="Profile"
                 fill
                 className="object-cover"
                 priority
               />
-              */}
+              }
             </div>
           </motion.div>
 

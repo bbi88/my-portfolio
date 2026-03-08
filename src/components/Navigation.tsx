@@ -42,7 +42,7 @@ export default function Navigation() {
           whileTap={{ scale: 0.95 }}
           className="text-xl font-semibold text-slate-900 dark:text-white"
         >
-          Portfolio
+          Bumbarai Tumurtogoo
         </motion.a>
 
         {/* Desktop Navigation */}
@@ -59,8 +59,8 @@ export default function Navigation() {
           ))}
           <ThemeToggle />
           <motion.a
-            href="/resume.pdf"
-            download
+            href="/cv.pdf"
+            download= "Bumbarai_CV.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-2 rounded-full border border-slate-300 dark:border-zinc-800 bg-transparent px-4 py-2 text-sm font-medium text-slate-900 dark:text-white transition-colors hover:border-slate-400 dark:hover:border-zinc-700 hover:bg-slate-100 dark:hover:bg-zinc-900"
