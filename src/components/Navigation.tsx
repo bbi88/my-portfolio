@@ -107,8 +107,8 @@ export default function Navigation() {
               </a>
             ))}
             <a
-              href="/resume.pdf"
-              download
+              href="/cv.pdf"
+              download= "Bumbarai_CV.pdf"
               onClick={() => setIsMobileMenuOpen(false)}
               className="flex items-center gap-2 rounded-full border border-slate-300 dark:border-zinc-800 bg-transparent px-4 py-2 text-sm font-medium text-slate-900 dark:text-white transition-colors hover:border-slate-400 dark:hover:border-zinc-700 hover:bg-slate-100 dark:hover:bg-zinc-900"
             >
